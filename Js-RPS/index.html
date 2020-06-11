@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RockPaperScissor</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        
+        <h1>Rock, Paper or Scissors?</h1>
+        <!-- ScoreBoard -->
+        
+        <div id="resultBar">
+
+        <div id="scoreboard">
+            <h3>User: <span id="userScore">0</span></h3> 
+            <!-- Player & Computer Scores -->
+            <h3>Computer: <span id="compScore">0</span></h3>
+            </div>
+
+            <div id="winnerResult">
+            <h3 id="finalResult">The final result will appear here!</h3>
+            </div>
+
+        </div>
+        
+
+   
+
+        <div id="playerSelection">
+        <h2 id="moveHere">Make your choice wisely!</h2>
+        <input id="imgBtn1" class="imgClass" type="image" src="https://www.jing.fm/clipimg/full/123-1236552_rock-paper-scissors-rock-paper-scissors-png.png" alt="ROCK">
+        <input id="imgBtn2" class="imgClass" type="image" src="https://www.clipartmax.com/png/full/6-63003_do-not-proceed-if-this-is-an-emergency-stop-hand.png" alt="PAPER">
+        <input id="imgBtn3" class="imgClass" type="image" src="https://www.clipartmax.com/png/full/428-4288836_your-hand-hand-clipart-png-rock-paper-scissors.png" alt="SCISSORS">
+        </div>
+
+
+        <div id="mainButtons">
+        <button id="startBtn" class="startbtnClass">Start Game!</button>
+        <button id="resetButton" class="resetBtn" onclick="resetFunction()">Restar!</button>
+        </div>
+        
+      <script src="rockpaperscissor.js"></script>  
+    </body>
+    
+</html>
